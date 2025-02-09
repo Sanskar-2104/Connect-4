@@ -30,3 +30,8 @@
 .drop-zone .active.row-5{transform: translateY(650px);}
 
 .drop-zone .active.active.column--.row-- {transition: none;}
+
+.drop-zone p {
+    display: grid;
+    place-content: center;
+}
