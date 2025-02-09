@@ -1,0 +1,32 @@
+.drop-zone{
+    height: calc(var(--size) * 1.5);
+}
+
+.drop-zone div{
+    width: var(--size);
+    height: var(--size);
+    border-radius: 50%;
+    position: absolute;
+}
+
+.drop-zone .p1 {background-color: var(--p1);}
+.drop-zone .p2 {background-color: var(--p2);}
+
+.drop-zone .active{transition: all ease-in-out 500ms;}
+
+.drop-zone .active.column-0{margin-left: 0;}
+.drop-zone .active.column-1{margin-left: 100px;}
+.drop-zone .active.column-2{margin-left: 200px;}
+.drop-zone .active.column-3{margin-left: 300px;}
+.drop-zone .active.column-4{margin-left: 400px;}
+.drop-zone .active.column-5{margin-left: 500px;}
+.drop-zone .active.column-6{margin-left: 600px;}
+
+.drop-zone .active.row-0{transform: translateY(150px);}
+.drop-zone .active.row-1{transform: translateY(250px);}
+.drop-zone .active.row-2{transform: translateY(350px);}
+.drop-zone .active.row-3{transform: translateY(450px);}
+.drop-zone .active.row-4{transform: translateY(550px);}
+.drop-zone .active.row-5{transform: translateY(650px);}
+
+.drop-zone .active.active.column--.row-- {transition: none;}

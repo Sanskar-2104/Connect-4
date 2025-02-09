@@ -1,0 +1,10 @@
+:root{
+  --size: 100px;
+  --p1: #F1BF3A;
+  --p2: #ec0b07;
+}
+
+.App{
+  display: grid;
+  place-content: center;
+}
